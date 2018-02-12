@@ -1,0 +1,271 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis:300,400,700');
+
+body{
+	font-family:'Dosis', sans-serif;;
+}
+
+.title {
+	text-decoration: underline;
+}
+
+.header{
+	 background: url('../img/Recruitbg.png');
+	 min-height: 100%;
+	 height: 100vh;
+	 background-size: cover;
+	 color: #fff;
+	 padding-top: 50px;
+	 padding-bottom: 50px;
+	 background-attachment: fixed;
+}
+
+a.nav-item {
+  text-decoration: none;
+}
+
+.nav-item {
+  color: #090;
+  opacity: 1;
+  position: relative;
+  -webkit-transition: opacity 0.2s ease-in-out 0s;
+  -moz-transition: opacity 0.2s ease-in-out 0s;
+  transition: opacity 0.2s ease-in-out 0s;
+}
+
+.nav-item:hover {
+  opacity: 0.5;
+}
+
+.logo {
+	width: 30%;
+	
+}
+
+.fa-4x{
+	color: #2adb9b;
+    font-size: 130px !important;
+}
+
+.row{
+	margin-top: 77px !important;
+}
+
+.smaller {
+	margin: 60px;
+	font-size: 12px !important;
+}
+
+.footer h1 {
+	color: #fff;
+}
+
+
+
+
+
+.header h1{
+	font-size: 50px;
+	text-transform:uppercase;
+	font-weight: 300;
+	margin-top: 120px;
+	text-align: center;
+}
+
+.header p{
+	font-size: 18px;	
+	font-weight: 400;
+	margin-top: 40px;
+	text-align: center;
+}
+
+
+
+.arguments{
+	background: #c9d8ff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #383838;
+	height: 100vh;
+}
+
+.arguments h1{
+	font-size: 36px;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 50px;
+
+}
+
+.blocicon{
+	width: 40%;
+}
+
+.iconalign{
+	text-align: center;
+}
+
+
+.bloc h2{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 30px;
+	color: #2adb9b;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.bloc p{
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 30px;
+	text-align: center;
+}
+
+.bloc a{
+	color:#2abd9b;
+	font-weight: 700;
+	font-size: 12px;
+	text-decoration: none;
+	text-transform: uppercase;
+
+}
+
+.bloc a:hover{
+	text-decoration: underline;
+	color: #16825n;
+}
+
+.ach{
+	background:#7d98f9;
+	background-size: cover;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-attachment: fixed;
+	color: #fff;
+	text-align: center;
+
+
+}
+
+#footer{
+	background: : #ddd;
+}
+
+.ach h1{
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+.achbloc span{
+	font-size: 107px;
+	font-weight: 300;
+
+}
+
+.achbloc h3{
+	font-size: 27px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2adb9b;
+
+}
+
+.newsletter{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: #e6e5e5;
+	color: #383838;
+}
+
+.newsletter h1 {
+	font-size: 36px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.newsletter p{
+	font-size: 18px;
+	font-weight: 400;
+	text-align: center;
+	margin-top: 20px;
+
+}
+
+.newsletter input{
+	background: #fff;
+	border:none;
+	border-radius: 5px;
+	border-bottom: 4px solid #2adb9b;
+	color:#383838;
+	padding: 30px;
+	width: 100%;
+	font-size: 18px;
+	outline: none;
+}
+
+.newsletter button{
+	background: #fcb150;
+	border: none;
+	border-radius: 5px;
+	padding: 30px;
+	width: 100%;
+	color: #975705;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 18px;
+	outline: none;
+
+}
+
+.newsletter button:hover{
+	opacity: 0.56;
+}
+
+
+.footer{
+	background: #383838;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+}
+
+
+.footer p{
+	font-size: 12px;
+	color: #fff;
+	margin-top: 40px;
+	text-transform: uppercase;
+}
+
+@media screen and (min-width: 0px) and (min-width: 300px){
+
+
+
+.arguments {
+	height: 100%;
+}
+
+
+
+}
+
+
+@media screen and (min-width: 0px) and (max-width: 414px){
+
+.newsletter input{
+	margin-bottom: 40px;
+}
+
+
+.row {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+
+}
